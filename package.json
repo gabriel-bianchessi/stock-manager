@@ -1,0 +1,16 @@
+{
+  "name": "stock-manager",
+  "version": "1.0.0",
+  "description": "A simple stock manager app :)",
+  "main": "src/server.js",
+  "author": "gabriel-bianchessi <gabriel.bianchessi21@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "runDev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
