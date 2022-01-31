@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+@root {
+  --title-color: #535353;
+  --text-color: #969696
+  --mint-cream-bg: #F0F7F4;
+  --cadet-blue: #70ABAF;
+  --middle-blue-green: #99E1D9;
+  --button-green: #19FF67;
+  --button-red: #FF6161;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;  
+  /* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
