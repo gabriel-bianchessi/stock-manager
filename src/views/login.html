@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/globals.css" />
+    <link rel="stylesheet" href="../public/css/login.css" />
+    <title>Stock Manager</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="login">
+        <h1 class="form-title">Entrar</h1>
+        <form action="/login" method="post" id="login-form">
+          <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email-login" id="email" name="email" />
+          </div>
+          <div class="input-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password-login" name="password" />
+          </div>
+        </form>
+        <div class="submit-buttons">
+          <button class="send-button" type="submit" form="login-form">
+            Entrar
+          </button>
+          <p>ou:</p>
+          <button class="google-button">
+            <img
+              class="google-logo"
+              src="../public/images/google.png"
+              alt="Logo do Google"
+            />Login com o Google
+          </button>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div id="register">
+        <h1 class="form-title">Cadastrar-se</h1>
+        <form action="" id="register-form">
+          <div class="input-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="input-group password-and-confirm">
+            <div>
+              <label for="password">Senha:</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div>
+              <label for="password-confirm">Confirmar Senha</label>
+              <input
+                type="password"
+                name="password-confirm"
+                id="password-confirm"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="submit-buttons">
+          <button class="send-button" type="submit" form="register-form">
+            Cadastrar-se
+          </button>
+          <p>ou:</p>
+          <button class="google-button">
+            <img
+              class="google-logo"
+              src="../public/images/google.png"
+              alt="Logo do Google"
+            />
+            Login com o Google
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

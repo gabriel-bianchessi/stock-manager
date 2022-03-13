@@ -1,0 +1,22 @@
+:root {
+  --title-color: #535353;
+  --text-color: #969696;
+  --mint-cream-bg: #f0f7f4;
+  --cadet-blue: #70abaf;
+  --middle-blue-green: #99e1d9;
+  --button-green: #19ff67;
+  --button-red: #ff6161;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+
+  background-color: var(--cadet-blue);
+}

@@ -1,1 +1,181 @@
+:root {
+  --title-color: #535353;
+  --text-color: #969696;
+  --mint-cream-bg: #f0f7f4;
+  --cadet-blue: #70abaf;
+  --middle-blue-green: #99e1d9;
+  --button-green: #19ff67;
+  --button-red: #ff6161;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mint-cream-bg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #ffffff;
+  max-width: 80%;
+  min-width: 900px;
+  min-height: 500px;
+  max-height: 80vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+}
+
+main>div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  margin: auto;
+
+  height: 450px;
+}
+
+#login {
+  flex: 1;
+}
+
+#register {
+  flex: 1;
+}
+
+.form-title {
+  text-align: center;
+  color: var(--title-color);
+
+  flex: 1;
+}
+
+form {
+  flex: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-buttons {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+
+  border-radius: 16px; 
+  border: none;
+  background-color: var(--mint-cream-bg);
+  color: var(--title-color);
+
+  padding-left: 8px;
+}
+
+label {
+  font-family: 'Roboto', sans-serif; 
+  color: var(--text-color);
+
+  width: 300px;
+
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.input-group { 
+  display: flex;
+  flex-direction: column;
+
+  margin: 16px auto 0 auto;
+}
+
+.password-and-confirm {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: row;
+}
+
+.password-and-confirm div {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.password-and-confirm  input {
+  width: 142px;
+}
+
+.password-and-confirm  div:nth-child(2) {
+  padding-left: 8px;
+}
+
+.submit-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-top: 24px;
+}
+
+button {
+  width: 270px;
+  height: 50px;
+
+  border-radius: 16px;
+  border: none;
+  margin: 8;
+
+  cursor: pointer;
+
+  background-color: var(--mint-cream-bg);
+  color: var(--text-color);
+}
+
+.send-button {
+  color: var(--title-color);
+  background-color: var(--button-green);
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  cursor: not-allowed
+}
+
+.google-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.separator {
+  width: 0.5px;
+  height: 450px;
+
+  margin: 56px auto;
+  flex: 0.01;
+  background-color: var(--text-color);
+}
